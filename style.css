@@ -1,0 +1,83 @@
+.header {
+	background: white;
+	padding: 2.2em 7%;
+    line-height: 55px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+p span {
+    visibility: hidden;
+    position: absolute;
+    margin: 30px;
+}
+p:hover span {
+    visibility: visible;
+}
+
+.bigger {
+    transition: 1s;
+   }
+.bigger:hover {
+    transform: scale(1.8);
+   }
+
+.bigger1 {
+    transition: 1s;
+   }
+.bigger1:hover {
+    transform: scale(1.1);
+   }
+
+.hr {
+    padding: 9%;
+	border-top: 0.1px solid #a5a5a5;
+	width: 70%;
+}
+
+.text-picture {
+    padding: 6% 0 20% 0;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.text-70 {
+    padding: 19% 0 0 0;
+    font-size: 70px;
+    font-weight: lighter;
+    color: #45F7EC;
+    letter-spacing: 6px;
+    text-align: center;
+}
+
+.text-40 {
+    font-size: 40px;
+    font-weight: lighter;
+    color: #45F7EC;
+    letter-spacing: 6px;
+}
+
+.text-30 {
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+    letter-spacing: 2.5px;
+}
+
+.parallax {
+    background-image: url("images/background.jpg");
+    min-height: 5000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.td-skills {
+    background-image: url('images/skills.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
